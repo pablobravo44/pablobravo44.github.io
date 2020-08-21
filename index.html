@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub pablobravo44</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar" class="nav">
+        <ul>
+            <li>
+
+                <a href="#projects">
+                    <span class="code">&lt;</span>
+                    Proyectos
+                    <span class="code">&#47;&gt;</span>
+                </a>
+
+            </li>
+            <li>
+                <a href="#contact">
+                    <span class="code">&lt;</span>
+                    Contacto
+                    <span class="code">&#47;&gt;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="welcome-section">
+        <div>
+            <h1>Hola<span>,</span></h1>
+            <p id="subheading">Bievenido a <span>mi web de Github</span></p>
+        </div>
+        <div>
+            <img class="welcome-img" id="desktop-only"
+                src="https://raw.githubusercontent.com/sfoteini/responsive-web-design-freeCodeCamp/fb2b6eac8dfc8903983db91fbb491d134ba266e6/personal-portfolio/images/code-1.svg"
+                alt="A code snippet in C language">
+            <img class="welcome-img" id="mobile-only"
+                src="https://raw.githubusercontent.com/sfoteini/responsive-web-design-freeCodeCamp/fb2b6eac8dfc8903983db91fbb491d134ba266e6/personal-portfolio/images/code-2.svg"
+                alt="A code snippet in C language">
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Mis trabajos:</h2>
+        <p>Esta es una lista de mis repostitorios públicos en <a style="color: #F2797B;" href="https://github.com/pablobravo44" target="_blank">GitHub</a> , esta lista se genera de manera automática usando la api de github, por lo tanto se verán todos los proyectos actuales</p>
+
+        <div class="projects-grid" id="proyectos">
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes encontrarme en:</p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/pablo-bravo-villanueva-9aa599188/" target="_blank" class="contact-details">
+                <img src="content/linkedin.svg" alt="linkedin logo" class="contact-icon">LinkedIn
+            </a>
+            <a href="https://github.com/pablobravo44" target="_blank" class="contact-details">
+                <img src="content/github.svg" alt="github logo" class="contact-icon">GitHub
+            </a>
+            <a href="mailto:pablobravo44@gmail.com" class="contact-details">
+                <img src="content/email.svg"alt="github logo" class="contact-icon">Correo
+            </a>
+        </div>
+    </section>
+    <script src="repos.js"></script>
+</body>
+
+</html>
